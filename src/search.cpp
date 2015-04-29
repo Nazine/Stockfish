@@ -59,7 +59,7 @@ namespace TB = Tablebases;
 using std::string;
 using Eval::evaluate;
 using namespace Search;
-
+skillskillskill
 namespace {
 
   // Different node types, used as template parameter
@@ -345,7 +345,7 @@ namespace {
     Countermoves.clear();
 
     size_t multiPV = Options["MultiPV"];
-    Skill skill(Options["Skill Level"]);
+    Skill skill(Options["Strength"]);
 
     // When playing with strength handicap enable MultiPV search that we will
     // use behind the scenes to retrieve a set of possible moves.
